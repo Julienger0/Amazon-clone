@@ -1,0 +1,70 @@
+[debug] [2022-03-29T09:58:59.710Z] ----------------------------------------------------------------------
+[debug] [2022-03-29T09:58:59.712Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gerar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-29T09:58:59.713Z] CLI Version:   10.5.0
+[debug] [2022-03-29T09:58:59.713Z] Platform:      win32
+[debug] [2022-03-29T09:58:59.713Z] Node Version:  v16.13.1
+[debug] [2022-03-29T09:58:59.714Z] Time:          Tue Mar 29 2022 11:58:59 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-03-29T09:58:59.714Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-29T09:58:59.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-29T09:58:59.842Z] > authorizing via signed-in user (magiceternal951@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-03-29T09:58:59.873Z] [hub] writing locator at C:\Users\gerar\AppData\Local\Temp\hub-c-2c907.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-03-29T09:58:59.900Z] defaultcredentials: writing to file C:\Users\gerar\AppData\Roaming\firebase\magiceternal951_gmail_com_application_default_credentials.json
+[debug] [2022-03-29T09:58:59.905Z] Setting GAC to C:\Users\gerar\AppData\Roaming\firebase\magiceternal951_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\gerar\\AppData\\Roaming\\firebase\\magiceternal951_gmail_com_application_default_credentials.json"}}
+[debug] [2022-03-29T09:58:59.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/adminSdkConfig [none]
+[debug] [2022-03-29T09:59:00.198Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/adminSdkConfig 200
+[debug] [2022-03-29T09:59:00.198Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/adminSdkConfig {"projectId":"c-2c907","storageBucket":"c-2c907.appspot.com","locationId":"europe-west"}
+[debug] [2022-03-29T09:59:00.212Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/c-2c907/sites 
+[debug] [2022-03-29T09:59:01.173Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/c-2c907/sites 200
+[debug] [2022-03-29T09:59:01.173Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/c-2c907/sites {"sites":[{"name":"projects/396939549818/sites/c-2c907","defaultUrl":"https://c-2c907.web.app","appId":"1:396939549818:web:deb5748f4f09c151362fc3","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-29T09:59:01.174Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/webApps/1:396939549818:web:deb5748f4f09c151362fc3/config [none]
+[debug] [2022-03-29T09:59:01.956Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/webApps/1:396939549818:web:deb5748f4f09c151362fc3/config 200
+[debug] [2022-03-29T09:59:01.956Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/c-2c907/webApps/1:396939549818:web:deb5748f4f09c151362fc3/config {"projectId":"c-2c907","appId":"1:396939549818:web:deb5748f4f09c151362fc3","storageBucket":"c-2c907.appspot.com","locationId":"europe-west","apiKey":"AIzaSyBHTOx80rETDkxJ_ZQp5b9sqYHC6OGYJUg","authDomain":"c-2c907.firebaseapp.com","messagingSenderId":"396939549818"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.6.5.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.6.5.zip..."}}
+[debug] [2022-03-29T09:59:02.003Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.5.zip 
+[debug] [2022-03-29T09:59:02.073Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.5.zip 200
+[debug] [2022-03-29T09:59:02.073Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.5.zip [stream]
+[debug] [2022-03-29T09:59:03.343Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-03-29T09:59:03.343Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-03-29T09:59:03.343Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\gerar\\.cache\\firebase\\emulators\\ui-v1.6.5\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\gerar\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.5\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-03-29T09:59:03.557Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\gerar\Desktop\reactjs\Project\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\gerar\\Desktop\\reactjs\\Project\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2022-03-29T09:59:03.626Z] Validating nodejs source
+[debug] [2022-03-29T09:59:07.139Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.213.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-29T09:59:07.140Z] Building nodejs source
+[debug] [2022-03-29T09:59:07.140Z] Analyzing nodejs backend spec
